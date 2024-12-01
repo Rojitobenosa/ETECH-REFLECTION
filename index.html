@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ICT Reflection</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f7f9fc, #d9e7ff);
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background: url('https://assets.onecompiler.app/42z3d7fzz/42z3bxchj/images.jfif') no-repeat center center;
+            background-size: cover; /* Ensures the image covers the header area */
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            height: 200px; /* Set a fixed height for the header */
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Makes text readable over the image */
+        }
+        .menu {
+            display: none;
+            flex-direction: column;
+            background-color: rgba(0, 0, 0, 0.8);
+            position: absolute;
+            top: 70px;
+            right: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-bottom: 1px solid white;
+        }
+        .menu a:last-child {
+            border-bottom: none;
+        }
+        .hamburger {
+            cursor: pointer;
+            font-size: 24px;
+            display: block;
+        }
+
+        /* Content Section */
+        .content {
+            padding: 20px;
+        }
+        section {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            color: #0078d4;
+            margin-top: 0;
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(90deg, #005bb5, #003d8b);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Enhanced Background for Sections */
+        section:nth-child(odd) {
+            background: linear-gradient(135deg, #eaf2ff, #ffffff);
+        }
+        section:nth-child(even) {
+            background: linear-gradient(135deg, #ffffff, #f3f8ff);
+        }
+
+        /* Responsive Styles */
+        @media (min-width: 768px) {
+            .hamburger {
+                display: none;
+            }
+            .menu {
+                display: flex;
+                position: static;
+                flex-direction: row;
+                background-color: transparent;
+                box-shadow: none;
+            }
+            .menu a {
+                border: none;
+                margin-left: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My ICT Reflection</h1>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <nav class="menu" id="menu">
+            <a href="#mail-merge">Mail Merge</a>
+            <a href="#text-wrap">Text Wrap</a>
+            <a href="#slide-presentation">Slide Presentation</a>
+            <a href="#info-graphics">Infographics</a>
+            <a href="#image-manipulation">Image Manipulation</a>
+            <a href="#website-creation">Website Creation</a>
+            <a href="#advocacy">Advocacy</a>
+            <a href="#petition">Petition</a>
+            <a href="#publishing">Publishing</a>
+            <a href="#facebook-analysis">Facebook Analysis</a>
+            <a href="#google-feedback">Google Feedback</a>
+            <a href="#reflection-output">Reflection</a>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="intro">
+            <p><strong>Student Name:</strong> Rojito Benosa (11-STEM)</p>
+            <p><strong>Teacher's Name:</strong> Catherine Biteng</p>
+        </div>
+    <div class="content">
+        <section id="mail-merge">
+            <h2>Mail Merge</h2>
+            <p>Mastering mail merge has been an invaluable experience in understanding how to efficiently create and send personalized documents, such as invitations, letters, and certificates. This process highlighted the power of automation in streamlining repetitive tasks, making communication not only faster but also more professional and personalized. By merging data with templates, I gained insight into how technology can simplify complex workflows, a skill that is highly applicable in both academic and professional settings.</p>
+        </section>
+        <section id="text-wrap">
+            <h2>Text Wrap</h2>
+            <p>Exploring text wrap was an exciting experience as it enabled me to design visually engaging and well-structured documents. By learning how to seamlessly integrate images with text, I discovered how to enhance readability while maintaining an aesthetically pleasing layout. This skill is essential for creating professional-looking presentations, reports, and other materials that effectively capture and hold the audience's attention.</p>
+        </section>
+        <section id="slide-presentation">
+            <h2>Slide Image Presentation</h2>
+            <p>Creating slide presentations taught me the art of visually communicating ideas in a clear and impactful way. By combining concise text, relevant images, and thoughtful design, I learned how to simplify complex topics and make them more engaging and accessible for my audience. This skill has not only improved my ability to present information effectively but also enhanced my confidence in delivering professional and educational content</p>
+        </section>
+        <section id="info-graphics">
+            <h2>Infographics</h2>
+            <p>Working with infographics revealed the true power of visuals in presenting data and information in a compelling and easily digestible format. I enjoyed the creative process of designing graphics that seamlessly combined essential data points with visually appealing elements. This experience taught me how to convey complex information quickly and effectively, making it easier for an audience to grasp key insights and retain important details.</p>
+        </section>
+        <section id="image-manipulation">
+            <h2>Image Manipulation</h2>
+            <p>Editing and manipulating images opened my eyes to the impact small visual changes can have on the overall presentation of content. From basic tasks like cropping and adjusting brightness to more advanced techniques like retouching and color correction, I learned how to enhance visuals and fix imperfections. This skill proved invaluable for creating high-quality images that align with the message I wanted to convey. By experimenting with different editing tools, I developed a deeper understanding of how to use visuals to evoke specific feelings and draw attention to important aspects of my content.</p>
+        </section>
+        <section id="website-creation">
+            <h2>Website Creation</h2>
+            <p>Creating a website from a Word document taught me how to transform simple content into a structured web page without needing any coding knowledge. By saving a Word file as an HTML document, I learned how to utilize basic formatting and structure to make content web-ready. This method showed me that even without coding, a document can be adapted for online use with a few simple adjustments. It highlighted the importance of organizing content effectively and ensuring that it could be presented clearly and professionally on the web. </p>
+        </section>
+        <section id="advocacy">
+            <h2>Advocacy for Social Change</h2>
+            <p>Using ICT for advocacy was a powerful lesson in how technology can amplify messages and contribute to positive social change. I explored various tools and platforms to reach wider audiences and make an impact, learning how social media and digital campaigns can help raise awareness about important issues. This experience taught me that technology is not just for personal use but can be a force for good, enabling people to come together, share their voices, and foster change. I became more aware of the potential of digital media to inspire action and spread critical information.</p>
+        </section>
+        <section id="petition">
+            <h2>Petition Using Change.org</h2>
+            <p>Creating a petition on Change.org was an enlightening experience that emphasized the importance of clear communication and a compelling message. I learned how to structure a petition to resonate with people, making them understand the urgency of the issue and motivating them to support the cause. This process demonstrated how online platforms can facilitate collective action, allowing people to come together for a common goal. It showed me the value of outreach and advocacy and how clear and purposeful campaigns can rally people to make a difference.</p>
+        </section>
+        <section id="publishing">
+            <h2>Publishing ICT Projects</h2>
+            <p>Publishing an ICT project online was a rewarding experience that taught me how to share my work with a broader audience and receive constructive feedback. I learned about different platforms for hosting projects, such as personal websites, cloud services, and social media. This process highlighted the importance of showcasing completed work to demonstrate skills and engage with a community. It also provided insights into how to maintain an online presence and keep projects updated to reflect new learnings and achievements.</p>
+        </section>
+        <section id="facebook-analysis">
+            <h2>Facebook Page Analysis</h2>
+            <p>Analyzing my ICT project using a Facebook page gave me valuable insights into audience engagement and interaction. It showed me how to track responses, gather feedback, and understand which aspects of my project resonated most with viewers. This experience emphasized the importance of using analytics tools and metrics to evaluate the impact of content. By monitoring likes, comments, and shares, I was able to identify areas for improvement and learn how to make my projects more appealing to my target audience.</p>
+        </section>
+        <section id="google-feedback">
+            <h2>Google Forms Feedback</h2>
+            <p>Creating feedback forms with Google Forms was a simple yet powerful way to collect opinions and suggestions from others. I learned how to design effective surveys that yield actionable insights, including choosing question types and formatting for clarity. This tool underscored the importance of gathering feedback to refine my projects and adapt to user needs. It helped me appreciate how continuous improvement is driven by understanding the perspective of others, whether peers, teachers, or potential users.</p>
+        </section>
+        <section id="reflection-output">
+            <h2>Reflection Output</h2>
+            <p>Reflecting on what I learned from these ICT projects was crucial for understanding my growth and areas of improvement. It allowed me to compile my thoughts and observations into a cohesive piece that highlighted my journey and the skills I gained. Writing this reflexive output reinforced my ability to articulate lessons learned, evaluate my progress, and set future goals. This reflection helped me realize that every challenge I faced and skill I developed contributed to a broader understanding of how technology can be used for personal and professional growth.</p>
+        </section>
+    </div>
+    <footer>
+        <p>Contact Email: <a href="mailto:rojitobenosa@gmail.com">rojitobenosa@gmail.com</a></p>
+        <p>Phone Number:09276803701</p>
+        <p>&copy; 2024 Rojito Benosa. All rights reserved.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+        }
+    </script>
+</body>
+</html>
